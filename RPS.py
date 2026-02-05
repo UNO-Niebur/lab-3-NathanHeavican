@@ -10,7 +10,9 @@ def main():
   ties = 0
   losses = 0
   #Create a loop that continues as long as the user wants to play.
-  #User can play as many games as they wish.
+  play = "yes"
+  while play == "yes":
+    #User can play as many games as they wish.
 
   #Randomly choose the computer between 'R', 'P', or 'S'
   computer = random.choice(["R", "P", "S"])
